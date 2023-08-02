@@ -18,6 +18,13 @@
   },
   "homepage": "https://github.com/andre-kortkamp/upgradeable-contract#readme",
   "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
     "hardhat": "^2.17.1"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "@openzeppelin/contracts-upgradeable": "^4.9.3",
+    "@openzeppelin/hardhat-upgrades": "^2.0.2",
+    "dotenv": "^16.3.1"
   }
 }
